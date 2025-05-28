@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a class="text-red-500 initial-block" href="/">Go Back</a>
+    <form action="/edit" method="post">
+        <input type="text" id="previous" name="previous" placeholder="Enter your previous name"
+            class="block w-full rounded-md px-5 py-2 bg-zinc-800 text-white" value="<%= filename %>">
+
+        <input type="text" id="new" name="new" placeholder="Enter your new name"
+            class="block w-full rounded-md px-5 py-2 bg-zinc-800 text-white">
+
+        <input type="submit" value="Update Task" placeholder="Enter" class="mt-2 bg-yellow-600 px-5 py-2 rounded-md">
+
+    </form>
+</body>
+
+</html>
